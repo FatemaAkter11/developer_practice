@@ -9,15 +9,15 @@ h1{
 .color{
     color: orange;
 }
-section{
+.top-banner{
     display: flex;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 20px;
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
-    margin-left: 3%;
 }
 .half-width img{
     width: 80%;
@@ -27,7 +27,7 @@ section{
     color: white;
     border-radius: 10px;
     text-decoration: none;
-    padding: 10px 30px;
+    padding: 10px 40px;
     font-weight: 700;
     font-size: 20px;
 }
@@ -38,3 +38,64 @@ section{
 }
 
 /* top banner end */
+
+/*  dream area start */
+h2{
+    font-size: 40px;
+}
+.btn2{
+    background-image: linear-gradient(90deg, blue, skyblue);
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.btn2:hover{
+    background-image: linear-gradient(180deg, tomato, salmon);
+    font-size: 25px;
+    color: black;
+}
+
+.half-width2{
+    width: 50%;
+    padding-left: 5%;
+   padding-right: 5%;
+}
+.dream-area{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 20px;
+}
+/*  dream area end */
+
+/* Experience area start */
+h3{
+    color: orange;
+}
+.experience-container{
+    display: flex;
+}
+.last-width{
+    width: 45%;
+    margin: 20px;
+    padding: 15px;
+    box-shadow: 10px 20px 40px gray;
+    border-left: 7px solid;
+    box-shadow: 10px 20px 40px gray;
+    border-image: linear-gradient(180deg,skyblue, tomato);
+    border-image-slice: 1;
+}
+.last-width2{
+    width: 45%;
+    margin: 20px;
+    padding: 15px;
+    border-left: 7px solid;
+    box-shadow: 10px 20px 40px gray;
+    border-image: linear-gradient(180deg,red,blue);
+    border-image-slice: 1;
+}
+    
