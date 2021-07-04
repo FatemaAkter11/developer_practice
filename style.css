@@ -9,15 +9,19 @@ h1{
 .color{
     color: orange;
 }
-.top-banner{
+.container{
     display: flex;
+    margin-bottom: 40px;
+    height: 500px;
+}
+.top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
-    margin-bottom: 20px;
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
+    padding-right: 5%;
 }
 .half-width img{
     width: 80%;
@@ -57,18 +61,10 @@ h2{
     font-size: 25px;
     color: black;
 }
-
-.half-width2{
-    width: 50%;
-    padding-left: 5%;
-   padding-right: 5%;
-}
 .dream-area{
-    display: flex;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
-    margin-bottom: 20px;
 }
 /*  dream area end */
 
@@ -76,29 +72,29 @@ h2{
 h3{
     color: orange;
 }
-.experience-container{
-    display: flex;
-    margin-bottom: 20px;
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left ;
 }
-.last-width{
-    width: 45%;
-    margin: 20px;
-    padding: 15px;
-    box-shadow: 10px 20px 40px gray;
+.experience-item{
+    box-shadow: 10px 20px 40px gray; 
+    width:50% ; 
+    margin: 30px;
+    padding: 10px;
+    height: 80%;
+}
+#Full-Stack{
     border-left: 7px solid;
-    box-shadow: 10px 20px 40px gray;
-    border-image: linear-gradient(180deg,skyblue, tomato);
+    border-image: linear-gradient(180deg, skyblue, tomato);
     border-image-slice: 1;
 }
-.last-width2{
-    width: 45%;
-    margin: 20px;
-    padding: 15px;
+#Baby{
     border-left: 7px solid;
-    box-shadow: 10px 20px 40px gray;
-    border-image: linear-gradient(180deg,red,blue);
+    border-image: linear-gradient(180deg, blue, cyan);
     border-image-slice: 1;
 }
+
 
 /* Experience area end */
 
