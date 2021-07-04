@@ -78,6 +78,7 @@ h3{
 }
 .experience-container{
     display: flex;
+    margin-bottom: 20px;
 }
 .last-width{
     width: 45%;
@@ -97,5 +98,12 @@ h3{
     box-shadow: 10px 20px 40px gray;
     border-image: linear-gradient(180deg,red,blue);
     border-image-slice: 1;
+}
+
+/* Experience area end */
+
+/* footer start */
+footer p{
+    text-align: center;
 }
     
